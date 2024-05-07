@@ -22,7 +22,7 @@ async function criarNovoUserEmail(email) {
 }
 
 // replace the value below with the Telegram token you receive from @BotFather
-const token = '6323356318:AAHcOqd0--uyzx24yRiPIFk6AVzw3Ya7Huo';
+const token = 'TOKEN';
 
 // Create a bot that uses 'polling' to fetch new updates
 const bot = new TelegramBot(token, {polling: true});
